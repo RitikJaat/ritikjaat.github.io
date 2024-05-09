@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio HTML CSS Javascript | Ritik Jaat</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!--header design-->
+    <header class="header">
+        <a href="#contact" class="logo">Ritik<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home show-animate js-container" id="home">
+        <div class="congrats">
+            <div class="checkmark-circle">
+                <div class="background"></div>
+                <div class="checkmark draw"></div>
+            </div>
+            <h1>Congratulations!</h1>
+            <p style="color: blue; background-color: black;">I will reach out to you soon!!!</p>
+
+            <button class="submit-btn" id="endanim" type="submit"
+                onclick="alert('I appreciate you taking the time to connect');">Continue</button>
+        </div>
+        <div class="home-content">
+
+            <h1>Hi, I'm <span>Ritik</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>-an enthusiastic learner-</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Hi there! My name is Ritik. I'm a quick learner, a team player, and I'm always looking for ways to
+                improve
+                myself. I crave flawlessness. Every project, every skill I pick up, becomes a quest for mastery (in
+                theory).
+                Don't get me wrong, the idea of putting in the effort sounds exhausting. But surely there's a
+                shortcut to ultimate achievement, right? Maybe a life hack for instant expertise? Until then, I'll
+                be here, admiring the potential while strategically napping.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="Ritik.pdf" target="_blank" class="btn">See my CV</a>
+
+                <button class="btn recruter">Recruit Me</button>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://github.com/RitikJaat" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ritik-jaat-818993308" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://youtube.com/@M0NSTER_LINUXUSER" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!--section About-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images/bg.png" alt="images Alex développeur web">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Developer web!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>I am passionate about programming. Outside of the coding world, I also enjoy various
+                sporting activities such as skydiving and running. Another of my hobbies are listning to music, playing
+                virtual games, capturing the beauty of nature, and I love editing afterwards.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="about.html" class="btn">Read more</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!--section education -->
+    <section class="education" id="education">
+        <h2 class="heading">Education and <span>professional experience</span><span class="animate scroll"
+                style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Degrees:<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2024</div>
+                            <h3>Embarked on a journey to develop my computer skills.</h3>
+                            <p>Actively expanding my knowledge base by learning computer skills. To further enhance my communication skills, I took the IELTS exam and achieved a strong score of Band 7.</p>
+                            <a href="ielts.pdf" target="_blank" class="dip">see results</a>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2022</div>
+                            <h3>Bachlors of Commerce</h3>
+                            <p>Developed a strong foundation in accounting principles, financial analysis, and business law through my B.Com studies.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018</div>
+                            <h3>Finished High School</h3>
+                            <p>Honed communication and interpersonal skills through group projects and presentations.</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Professional experiences:<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2024 - 2024</div>
+                            <h3>Fullstack Web Developer</h3>
+                            <p>To continuously hone my technical skills and build a successful freelance career, I've shifted my focus to web development.  This specialization allows me to leverage my programming abilities while gaining valuable real-world experience.  Through freelance projects, I actively seek to refine my development skills and establish myself as a reliable web development professional..</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - 2024</div>
+                            <h3>Device Maintainer - GenesisOS</h3>
+                            <p>By customizing and supporting a smartphone running GenesisOS, I continuously develop and refine my technical expertise in aftermarket mobile operating systems.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2022</div>
+                            <h3>Expanding My Skillset: A Journey into Programming</h3>
+                            <p>In my pursuit of a fulfilling career and continuous learning, I've embarked on a journey to explore the world of programming languages. By actively acquiring a diverse skillset in this field, I aim to empower myself with the technical capabilities sought after in today's job market..</p>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:6;"></span>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--section slills-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>SKILLS</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML + CSS <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <!-- <h3>PHP <span>85%</span></h3> -->
+                            <!-- <div class="bar"><span></span></div> -->
+                        </div>
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional skills:<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Development <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Frontend Development <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Backend Development <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Project Management and Collaboration <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section -- mes projets section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">My <span>Projets</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/genesisOS.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>GenesisOS</h4>
+                    <p></p>
+                    <a href="https://musific.freewebhostmost.com" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>LAMBORGHINI</h4>
+                    <p>HTML, CSS, JS + Framework Swiper. Figma-pour la conception du site. Ce site s'adapter à
+                        différents écrans.</p>
+                    <a href="https://alexnesvit.github.io/Monprojet-Lambo-html-css-javascript/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>SOLAR SYSTEM</h4>
+                    <p>HTML + CSS. Solar System animation.</p>
+                    <a href="https://alexnesvit.github.io/Solar/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>TELEGRAM-BOT</h4>
+                    <p>PYTHON + AIOGRAM. Telegramm Bot pour l'inscription sur le site. Retrouver toutes mes projets sur
+                        mon GitHub.</p>
+                    <a href="https://github.com/AlexNesvit" target="_blank"><i class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>GITHUB BOT</h4>
+                    <p>PYTHON. Bot GitHub pour automatiser les activités sur GitHub. Retrouver toutes mes projets sur
+                        mon GitHub. </p>
+                    <a href="https://github.com/AlexNesvit" target="_blank"><i class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Projet Personal-Card</h4>
+                    <p>Retrouver toutes mes créations et projets sur mon GitHub. Ou bien contactez-moi: 07.68.26.18.77
+                    </p>
+                    <a href="https://alexnesvit.github.io/Personal-Card/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+            <!-- 
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Envoyer</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div> -->
+        </div>
+    </section>
+
+    <!--Copyright footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Alex Nesvit | All Rights Reserved.</p>
+
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
