@@ -569,9 +569,9 @@ span {
 
 /* Portfolio section */
 .portfolio {
-    min-height: auto;
     padding-bottom: 7rem;
     background-color: var(--bg-color);
+    columns: 300px;
 }
 
 .portfolio h2 {
